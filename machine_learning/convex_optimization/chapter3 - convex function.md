@@ -11,7 +11,7 @@
 
 ## 一阶条件
 函数$ f $是凸函数的充要条件是：
-> $dom$ $f$是凸的，$\forall x, y \in dom f$，下式成立
+> $dom\ f$是凸的，$\forall x, y \in dom\ f \subseteq R^n $，下式成立
 > $$ f(y) \ge f(x) + \nabla f(x)^T(y-x) $$
 
 证明：
@@ -22,7 +22,7 @@
 ## 二阶条件
 
 函数$ f $是凸函数的充要条件是：
-> 其Hessian举证是半正定的，即 $$ \forall x \in dom f, 有 \nabla ^ 2 f(x) \succeq 0 $$
+> 其Hessian矩阵是半正定的，即 $$ \forall x \in dom f, 有 \nabla ^ 2 f(x) \succeq 0 $$
 
 ## 常见凸函数
 仿射函数的一般形式为 $f(x)=Ax+b$，其中$A \subseteq R^{m*n}, x \subseteq R^n, b \subseteq R^m $。一个函数是仿射函数，当且仅当它是即凸又凹。
@@ -34,7 +34,7 @@ $R$上的一些函数
 > 
 > $ |x|^a , a\ge 1$
 > 
-> $logx$
+> $-\log x$
 > 
 > 负熵： $xlogx$
 
@@ -55,7 +55,7 @@ $R^n$上的一些函数
 #上境图
 函数$f：R^n \rightarrow R$的图像定义为 $\{(x, f(x)) | x \in dom f\}$，它是$R^{n+1}$的一个子集。
 
-将这个函数的上境图定义为 $epi f=\{ (x, t) | x \in dom f, t \ge f(x)   \}$。几何上理解，就是所有函数图像上方的空间。
+将这个函数的上境图定义为 $epi\ f=\{ (x, t) | x \in dom f, t \ge f(x)   \}$。几何上理解，就是所有函数图像上方的空间。
 > 函数是凸函数，当且仅当其上境图是凸集
 
 ## Jensen不等式

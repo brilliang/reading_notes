@@ -82,7 +82,7 @@ $$ \theta x_1 + (1-\theta)x_2 $$
 ## 保凸运算
 1. 凸集的交集还是凸集
 2. 仿射函数（形如 f(x)=Ax+b，其中$ A \in R^{m \times n}，b \in R^m $）的定义域是凸的，那么值域也是凸的；反之亦然。
-3. 透视函数（对向量进行伸缩，时的最后一维分量为1并舍弃之），定义域是凸的，值域也是凸的；反之亦然。
+3. 透视函数（$定义为P: R^{n+1} \rightarrow R^n, P(z, t)= z / t $），定义域是凸的，值域也是凸的；反之亦然。
 4. 线性分式函数（
 $ g(x)=\begin{pmatrix} A \\ C^T \end{pmatrix}  x + \begin{pmatrix} b \\ d \end{pmatrix}$
 ）
