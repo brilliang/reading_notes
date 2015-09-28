@@ -11,7 +11,7 @@ $$ \theta x_1 + (1-\theta)x_2 $$
 
 ## 概念
 
-介绍了放射、凸、锥这三个概念
+介绍了仿射、凸、锥这三个概念
 <table>
 <thead>
     <tr>
@@ -104,7 +104,7 @@ $ g(x)=\begin{pmatrix} A \\ C^T \end{pmatrix}  x + \begin{pmatrix} b \\ d \end{p
 > 
 > 两个不相交的凸集 $ C和D， C \cap D =\emptyset$
 > 
-> $\exists a \neq 0和b$
+> $\exists \ a \neq 0和b$
 > 
 > $s.t. \forall x \in C， a^Tx \le b; \forall x \in D, a^Tx \ge b  $
 
